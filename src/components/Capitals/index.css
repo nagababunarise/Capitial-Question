@@ -1,0 +1,32 @@
+.bg-container {
+  background-color: #93c5fd;
+  height: 100vh;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.card-container {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.question-card {
+  display: flex;
+  flex-direction: row;
+}
+.option-name {
+  height: 30px;
+  width: 140px;
+  margin: 20px;
+}
+.para {
+  color: green;
+  font-size: 50px;
+  font-weight: bold;
+  font-style: italic;
+}
